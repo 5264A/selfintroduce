@@ -20,12 +20,29 @@
         /* here rgb is used for deciding the colours whereas the " a " here is used to define the transparency of the colour */
         background-color: rgba(128, 149, 226, 0.5);
         width: 45%;
+
     }
 
     img {
         border-radius: 40%;
         height: 100px;
         width: 100px;
+    }
+
+    #hackerrank:hover {
+        border-color: rgb(21, 192, 21);
+    }
+
+    #codechef:hover {
+        border-color: rgb(117, 115, 17);
+    }
+
+    #linkedin:hover {
+        border-color: rgb(50, 168, 236);
+    }
+
+    #github:hover {
+        border-color: rgb(46, 32, 125);
     }
 
     .photo {
@@ -45,26 +62,26 @@
 
     <a href="https://www.hackerrank.com/vaibhav_iiitr?hr_r=1" target="_blank">
 
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png"
-            alt="HackerRank"></a>
+        <img class="photo" id="hackerrank"
+            src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" alt="HackerRank"></a>
 
 
     <a href="https://www.codechef.com/users/hello_vaibhav" target="_blank">
 
-        <img class="photo"
+        <img class="photo" id="codechef"
             src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/zruiknbedz8yqafxbazb"
             alt="Codechef"></a>
 
 
-    <a href="https://www.linkedin.com/in/vaibhav-verma-iiitr/" target="_blank">
+    <a href="https://www.linkedin.com/in/vaibhav-verma-iiitr/" class="btn" target="_blank">
 
-        <img class="photo"
+        <img class="photo" id="linkedin"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
             alt="LinkedIn"></a>
 
     <a href="https://github.com/hellovaibhav" target="_blank">
 
-        <img class="photo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+        <img class="photo" id="github" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt="Github"></a>
 </body>
 
